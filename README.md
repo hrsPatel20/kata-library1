@@ -66,6 +66,25 @@ Click the "Fork" button on the GitHub page.
 5. Open a Pull Request:
    Go to the original repository and open a pull request from your fork.
 
+
+## License
+
+## Acknowledgements
+
+
+  Special thanks to contributors and the open-source community for their support and resources.
+
+
+### Customizing the README
+
+- **Update Repository URL**: Replace `https://github.com/hrsPatel20/Kata-Library.git` with the correct URL if it’s different.
+- **Add Dependencies**: List any specific dependencies in `requirements.txt` and ensure they are included in your `README.md`.
+- **Modify Acknowledgements**: Customize the acknowledgements section based on contributors or resources you want to credit.
+
+Feel free to adjust the sections and content to fit the specifics of your project!
+
+
+
    
 
    
