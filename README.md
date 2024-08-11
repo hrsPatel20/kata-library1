@@ -4,8 +4,11 @@ A simple library management system that allows users to add, borrow, return, and
 
 # Features
 Add Books: Users can add new books to the library.
+<br>
 Borrow Books: Users can borrow books from the library, provided they are available.
+<br>
 Return Books: Users can return borrowed books, updating their availability status.
+<br>
 View Available Books: Users can view a list of all available books in the library.
 
 #Setup
