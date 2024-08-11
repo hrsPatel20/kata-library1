@@ -15,7 +15,7 @@ Follow these steps to set up the project on your local machine:
 
 1. Clone the Repository:
    ```bash
-   git clone https://github.com/hrsPatel20/Kata-Library1.git
+   git clone https://github.com/hrsPatel20/kata-library1.git
 
 2. Navigate to the Project Directory:
    ```
@@ -77,7 +77,7 @@ Click the "Fork" button on the GitHub page.
 
 ### Customizing the README
 
-- **Update Repository URL**: Replace `https://github.com/hrsPatel20/Kata-Library1.git` with the correct URL if it’s different.
+- **Update Repository URL**: Replace `https://github.com/hrsPatel20/kata-library1.git` with the correct URL if it’s different.
 - **Add Dependencies**: List any specific dependencies in `requirements.txt` and ensure they are included in your `README.md`.
 - **Modify Acknowledgements**: Customize the acknowledgements section based on contributors or resources you want to credit.
 
