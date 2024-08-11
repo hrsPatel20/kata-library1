@@ -23,7 +23,7 @@ class TestLibrary(unittest.TestCase):
         library.return_book("1")
         self.assertTrue(book.available)
     
-    def test_view_available_books(self):
+    def test_available_books(self):
         library = Library()
         book1 = Book("1", "Test Book 1", "Author Name", 2024)
         book2 = Book("2", "Test Book 2", "Another Author", 2023)
