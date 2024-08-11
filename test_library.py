@@ -29,7 +29,7 @@ class TestLibrary(unittest.TestCase):
         book2 = Book("2", "Test Book 2", "Another Author", 2023)
         library.add_book(book1)
         library.add_book(book2)
-        library.borrow_book("12")
+        library.borrow_book("1")
         available_books = library.view_available_books()
         self.assertIn(book2, available_books)
         self.assertNotIn(book1, available_books)
