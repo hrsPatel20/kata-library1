@@ -19,3 +19,13 @@ class Library:
                 book.available = False
                 return
         raise ValueError("Book is not available")
+    
+    def return_book(self, isbn):
+        for book in self.books:
+            if book.isbn == isbn:
+                book.available = True
+                return
+        raise ValueError("Book not found")
+
+    def view_available_books(self):
+        return [book for book in self.books if book.available]
