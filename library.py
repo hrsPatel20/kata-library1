@@ -1,6 +1,6 @@
 class Book:
-    def __init__(self, isbn, title, author, year):
-        self.isbn = isbn
+    def __init__(self, id, title, author, year):
+        self.id = id
         self.title = title
         self.author = author
         self.year = year
@@ -13,16 +13,16 @@ class Library:
     def add_book(self, book):
         self.books.append(book)
     
-    def borrow_book(self, isbn):
+    def borrow_book(self, id):
         for book in self.books:
-            if book.isbn == isbn and book.available:
+            if book.id == id and book.available:
                 book.available = False
                 return
         raise ValueError("Book is not available")
     
-    def return_book(self, isbn):
+    def return_book(self, id):
         for book in self.books:
-            if book.isbn == isbn:
+            if book.id == id:
                 book.available = True
                 return
         raise ValueError("Book not found")
