@@ -48,7 +48,9 @@ View Available Books: Users can view a list of all available books in the librar
 # Project Structure
 
 library.py: Contains the core functionality of the Library Management System.
+<br>
 test_library.py: Contains the test cases for the system, developed using TDD.
+<br>
 README.md: This file, containing instructions and documentation for the project.
 
 # Git Workflow
